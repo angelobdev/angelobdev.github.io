@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+/* Global CSS */
+
+* {
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+html,
+body {
+  background-color: #eee;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Global CSS (for elements) */
+
+a {
+  color: #bbb;
+}
+
+a:hover {
+  color: #aaa;
+}
+
+/* GAMES LIST */
+
+.games-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.games-list-element {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/* p5.js Game Canvas */
+
+.game-title {
+  color: #bbb;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.game-content {
+  border: 1px solid black;
+  padding: 0;
+  margin: 0;
+}
+
+/* FOOTER */
+
+.footer-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+
+  background-color: #0003;
+}
+
+.footer-text {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.footer-text > a {
+  color: #eee;
+}
+
+.footer-text > a:hover {
+  color: #ddd;
+}
