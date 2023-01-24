@@ -1,0 +1,3 @@
+[submodule "projects/pong"]
+	path = projects/pong
+	url = https://github.com/angelobdev/pong
