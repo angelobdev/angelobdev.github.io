@@ -1,40 +1,52 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <!-- META DATA -->
-    <title>@angelobdev</title>
-    <!-- STYLES -->
+    <title>Portfolio - @angelobdev</title>
     <link rel="stylesheet" type="text/css" href="assets/styles/main.css" />
-    <!-- SCRIPTS -->
-    <script src="http://www.w3schools.com/lib/w3data.js"></script>
+    <!-- META DATA -->
+    <meta
+      name="description"
+      content="Portfolio of Angelo Belcastro (@angelobdev)"
+    />
+    <meta name="keywords" content="angelobdev, angelo, belcastro, github" />
+    <meta name="robots" content="index" />
+    <meta name="revisit-after" content="7" />
+    <meta name="language" content="en-US" />
+    <meta name="charset" content="iso-8859-1" />
+    <meta name="copyright" content="Angelo Belcastro" />
+    <meta name="author" content="Angelo Belcastro (@angelobdev)" />
+    <meta name="reply-to" content="angelo.belcastro01@gmail.com" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="cache-control" content="no-cache" />
   </head>
   <body>
     <!-- BODY -->
-    <h1>Hey!</h1>
-    <h2>
-      Welcome to
-      <a href="#">angelobdev.github.io! 👋</a>
-    </h2>
-    <h3>Here's some of my work:</h3>
-    <!-- Mini Games -->
-    <p>Mini Games:</p>
-    <div>
-      <ul class="games-list">
-        <li class="games-list-element"><a href="projects/pong">PONG</a></li>
-        <li class="games-list-element"><a href="#">ASTEROIDS</a></li>
-        <li class="games-list-element"><a href="#">BREAKOUT</a></li>
-        <li class="games-list-element"><a href="#">MINESWEEPER</a></li>
-        <li class="games-list-element"><a href="#">CHESS(?)</a></li>
-      </ul>
+    <div id="container">
+      <h1>Hey, welcome my Portfolio!</h1>
+      <!-- TODO insert line here and remove h2 -->
+      <h2>_____________________________________________</h2>
+      <br />
+      <h2>Try some of the games I've coded *</h2>
+      <div class="projects">
+        <a href="projects/pong/"> Pong!</a>
+        <a href="projects/minesweeper/"> Minesweeper</a>
+      </div>
+      <br />
+      <br />
+      <h2>Have a look at some of my repositories:</h2>
+      <div class="projects">
+        <a href="https://github.com/angelobdev/opengl-engine">OpenGL Engine</a>
+        <a href="https://github.com/angelobdev/OpenIndustry">OpenIndustry</a>
+      </div>
     </div>
-
-    <!-- END BODY -->
-
+    <div id="alert">
+      <p>* Games cannot run on mobile devices</p>
+    </div>
+    <img class="professor" src="assets/images/professor.png" />
     <!-- FOOTER -->
-    <div w3-include-html="./assets/html/footer.html"></div>
-    <script>
-      w3IncludeHTML();
-    </script>
-    <!-- END FOOTER -->
+    <div id="footer">
+      <p>Powered by <a href="https://github.com/angelobdev">angelobdev</a></p>
+      <p>Copyright - 2023 ©</p>
+    </div>
   </body>
 </html>
