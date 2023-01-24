@@ -1,3 +1,0 @@
-[submodule "projects/test"]
-	path = projects/test
-	url = https://github.com/angelobdev/test-pong
