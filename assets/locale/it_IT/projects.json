@@ -1,0 +1,38 @@
+[
+  {
+    "title": "Minesweeper",
+    "image": "https://i.imgur.com/BBVROCK.png",
+    "description": "Piccola reimplementazione di un famoso gioco",
+    "button": {
+      "text": "Live Demo",
+      "href": "https://angelobdev.github.io/projects/minesweeper"
+    }
+  },
+  {
+    "title": "Pong!",
+    "image": "https://i.imgur.com/ZxFXG54.png",
+    "description": "Piccola reimplementazione di un famoso gioco",
+    "button": {
+      "text": "Live Demo",
+      "href": "https://angelobdev.github.io/projects/pong"
+    }
+  },
+  {
+    "title": "Casa del Libro!",
+    "image": "https://raw.githubusercontent.com/angelobdev/CasaDelLibro/main/screenshots/Biblioteca.png",
+    "description": "Piccola reimplementazione di un famoso gioco",
+    "button": {
+      "text": "GitHub",
+      "href": "https://github.com/angelobdev/CasaDelLibro"
+    }
+  },
+  {
+    "title": "Fiarvo",
+    "image": "https://fiarvo.com/wp-content/uploads/2022/03/cropped-Logo_black.png",
+    "description": "Fiarvo...",
+    "button": {
+      "text": "Go to website",
+      "href": "https://fiarvo.com"
+    }
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "home": {
+    "hello": "Ciao, ",
+    "texts": "Sono Angelo Belcastro, uno sviluppatore appassionato dall'Italia!"
+  },
+  "projects": {
+    "title": "Progetti"
+  },
+  "biography": {
+    "title": "Biografia",
+    "description": "I am Angelo Belcastro, a passionate Computer Science & Engineering student with a fervent curiosity for the world of information technology. In addition to my solid technical skills, I stand out for my soft skills that allow me to be a valuable member of any work team. My aptitude for teamwork is a key element of my professional approach. I am a natural collaborator, listening carefully to the ideas of others and sharing my knowledge and experience, working together to achieve common goals. My empathy and ability to communicate clearly and concisely allow me to establish strong working relationships and create a positive and productive work environment. I am known for my problem-solving skills, meeting challenges with creativity and determination. I am adept at analyzing complex situations, identifying the most effective solutions and implementing them in a timely and efficient manner. My insatiable curiosity drives me to constantly seek new approaches and technologies, ensuring that my skills remain at the forefront of the ever-changing world of information technology. I have a clear vision of the goals to be achieved and am able to inspire others to give their best to achieve excellence. My ability to handle challenges and remain calm even in high-pressure situations makes me a reliable reference point for my colleagues. I am excited to share my skills, experiences and projects with you through this website. I hope you can discover my commitment, passion and dedication in the world of IT and beyond."
+  },
+  "contacts": {
+    "title": "Contatti",
+    "description": "Ciao, mondo!"
+  }
+}
