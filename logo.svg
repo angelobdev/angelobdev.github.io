@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="120" viewBox="0 0 480 120" role="img">
+    <!-- Icon (left) -->
+    <!-- <g>
+        <rect width="340" height="96" rx="18" ry="18" fill="black" />
+    </g> -->
+
+    <g transform="translate(182,24)" filter="url(#shadow)">
+        <!-- rounded chip background -->
+        <rect width="96" height="72" rx="18" ry="18" fill="#bfab25" />
+
+        <!-- circuit traces to the right of the chip -->
+        <g transform="translate(96, 8)" stroke="#ffffff" stroke-width="3" stroke-linecap="round"
+            stroke-linejoin="round" fill="none" opacity="0.95">
+            <path d="M6 6 L36 6" />
+            <circle cx="36" cy="6" r="3" fill="#ffffff" />
+            <path d="M6 30 L48 30" />
+            <circle cx="48" cy="30" r="3" fill="#ffffff" />
+            <path d="M6 54 L36 54" />
+            <circle cx="36" cy="54" r="3" fill="#ffffff" />
+        </g>
+    </g>
+
+    <!-- Brand text (right) -->
+    <g transform="translate(26,72)">
+        <text x="0" y="0"
+            font-family="Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial"
+            font-weight="700" font-size="40" fill="#0f172a" letter-spacing="0.3">
+            <tspan font-weight="400" fill="white">angelob</tspan>
+            <tspan font-weight="600" fill="white">dev</tspan>
+        </text>
+    </g>
+</svg>
